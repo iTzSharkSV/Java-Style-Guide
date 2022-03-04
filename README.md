@@ -1,6 +1,6 @@
 # Java Style Guide
 
-_A mostly reasonable approach to Jvm!_
+_A mostly reasonable approach to Java!_
 
 ## **Table of Contents**
 
@@ -169,7 +169,7 @@ For the remaining non-ASCII characters, either the actual Unicode character (e.g
 
 A source file consists of, in order:
 
-1. License or copyright information, if present
+1. License or copyright information (if present)
 2. Package statement
 3. Import statements
 4. Exactly one top-level class
@@ -329,7 +329,7 @@ Here are some examples of breaking method calls:
 someMethod(longExpression1, longExpression2, longExpression3,
         longExpression4, longExpression5);
 
-// PREFER
+// PREFERED
 someMethod(longExpression1,
            longExpression2,
            longExpression3,
@@ -344,7 +344,7 @@ Following are two examples of breaking an arithmetic expression. The first is pr
 longName1 = longName2 * (longName3 + longName4
             - longName5) + 4 * longname6;
 
-// PREFER
+// INSTEAD
 longName1 = longName2 * (longName3 + longName4 - longName5)
             + 4 * longname6;
 ```
@@ -427,7 +427,7 @@ return new MyClass() {
                 recover();
             }
         } else {
-            lastThing();
+            doSomethingElse();
         }
     }
 };
@@ -453,7 +453,7 @@ void doNothing()
 void doNothing() {
 }
 
-// PREFER
+// PREFERED
 void doNothing() {}
 ```
 
@@ -478,7 +478,7 @@ if (test) {
 
 }
 
-// PREFER
+// PREFERED
 if (test) {
     ...
 } else {
@@ -589,7 +589,7 @@ Each line should contain at most one statement. Example:
 // AVOID
 argv++; argc--;
 
-// CORRECT
+// INSTEAD
 argv++;
 argc++;
 ```
@@ -782,7 +782,7 @@ try {
     logger.error(e.getMessage(), e);
 }
 
-// PREFER
+// PREFERED
 try {
     statements;
 } catch (ExceptionClass | OtherExceptionClass e) {
@@ -921,7 +921,7 @@ Package names are all lowercase, with consecutive words simply concatenated toge
 ```java
 // AVOID
 COM.shorky.Service
-// GOOD
+// INSTEAD
 com.shorky.service
 ```
 
@@ -1087,7 +1087,7 @@ It is generally a good idea to use parentheses liberally in expressions involvin
 // AVOID
 if (a == b && c == d)
 
-// PREFER
+// PREFERED
 if ((a == b) && (c == d))
 ```
 
@@ -1210,7 +1210,7 @@ Javadoc is not always present on a method that overrides a supertype method.
 
 ```text
 #
-# Copyright 2021 - SharkSV
+# Copyright 2021 @SharkSV
 # License Identifier: MIT
 #
 ```

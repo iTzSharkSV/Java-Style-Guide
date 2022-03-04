@@ -1,30 +1,41 @@
-## Contributing
+# Contributing to this project
 
-Hi there! We're thrilled that you'd like to contribute to this project. Your help is essential for keeping it great.
+Welcome, and thank you for your interest in contributing to the Style-Guide!
 
-Contributions to this project are [released](https://help.github.com/articles/github-terms-of-service/#6-contributions-under-repository-license) to the public under the project's open source license.
+There are many ways in which you can contribute, beyond writing code. The goal of this document is to provide a high-level overview of how you can get involved.
 
-Please note that this project is released with a Contributor Code of Conduct. By participating in this project you agree to abide by its terms.
+## Questions & Feedback
 
-## Submitting a pull request
+Have a question? The active community will be eager to assist you. Your well-worded question will serve as a resource to others searching for help.
 
-0. Fork and clone the repository
-0. Configure and install the dependencies: `script/bootstrap`
-0. Make sure the tests pass on your machine: `script/cibuild`
-0. Create a new branch: `git checkout -b my-branch-name`
-0. Make your change, add tests, and make sure the tests still pass
-0. Push to your fork and submit a pull request
-0. Pat your self on the back and wait for your pull request to be reviewed and merged.
+Your comments and feedback are welcome, and the development team is available via a handful of different channels.
 
-Here are a few things you can do that will increase the likelihood of your pull request being accepted:
+## Reporting Issues
 
-- Follow standards for style and code quality
-- Write tests.
-- Keep your change as focused as possible. If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.
-- Write a [good commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
+Have you identified a problem in the project? Want to alter the docs? We want to hear about it! Here's how you can make reporting your issue as effective as possible.
 
-## Resources
+### Look for an Existing Issue
 
-- [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
-- [Using Pull Requests](https://help.github.com/articles/about-pull-requests/)
-- [GitHub Help](https://help.github.com)
+Before you create a new issue, please do a search in [open issues](https://github.com/iTzSharkSV/Java-Style-Guide/issues) to see if the issue or feature request has already been filed.
+
+Be sure to scan through the most popular feature requests.
+
+If you find your issue already exists, make relevant comments and add your reaction. Use a reaction in place of a "+1" comment:
+
+-   👍 - upvote
+-   👎 - downvote
+
+If you cannot find an existing issue that describes your bug or feature, then create a new issue!
+
+### Follow Your Issue
+
+Once submitted, your report will go into the issue tracking workflow. Be sure to understand what will happen next, so you know what to expect, and how to continue to assist throughout the process.
+
+## Contributing Fixes
+
+If you are interested in fixing issues,
+please submit a pull request.
+
+# Thank You!
+
+Your contributions to open source, large or small, make great projects like this possible. Thank you for taking the time to contribute.
